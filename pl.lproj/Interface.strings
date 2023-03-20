@@ -1,0 +1,447 @@
+/* 
+  GymBook.strings
+  GymBook
+
+  Created by Salvatore Rocca on 7/29/12.
+  Copyright (c) 2012 Salvatore Rocca. All rights reserved.
+*/
+
+/* Navigation */
+"navigation.exercises" = "Ćwiczenia";
+"navigation.workouts" = "Treningi";
+"navigation.logs" = "Dziennik";
+"navigation.bodyweight" = "Waga";
+"navigation.settings" = "Ustawienia";
+
+/* Titles */
+"title.exercises" = "Ćwiczenia";
+"title.exercises.all" = "Wszystkie";
+"title.exercise" = "Ćwiczenie";
+"title.workouts" = "Treningi";
+"title.archivedWorkouts" = "Zarchiwizowane treningi";
+"title.workout" = "Trening";
+"title.newWorkout" = "Nowy trening";
+"title.editWorkout" = "Edytuj trening";
+"title.newExercise" = "Nowe ćwiczenie";
+"title.editExercise" = "Edytuj ćwiczenie";
+"title.addExercise" = "Dodaj ćwiczenie";
+"title.newLog" = "Dodaj dziennik";
+"title.editLog" = "Edytuj dziennik";
+"title.newNotes" = "Dodaj notatki";
+"title.editNotes" = "Edytuj notatki";
+"title.changeDate" = "Zmień datę";
+"title.logs" = "Dzienniki";
+"title.settings" = "Ustawienia";
+"title.store" = "Sklep";
+"title.bodyweight" = "Waga";
+"title.bodyweights" = "Wagi";
+"title.addToWorkout" = "Dodaj do treningu";
+"title.inWorkouts" = "Użyte w %i treningach";
+"title.inWorkouts.singular" = "Użyte w %i treningu";
+"title.more" = "Więcej";
+"title.completedWorkout" = "Zakończony trening";
+"title.completedWorkout.today" = "Zakończono trening!";
+//
+"title.alert.notifications" = "Powiadomienia wyłączone";
+"title.alert.settings.general.theme" = "Aktywny motyw";
+"title.alert.inAppPurchases.unableToLoadProducts" = "Nie udało się załadować zakupów w aplikacji";
+"title.alert.inAppPurchases.unableToBuyProduct" = "Nie udało się zakończyć zakup w aplikacji";
+"title.alert.inAppPurchases.unableToRestoreProducts" = "Nie udało się przywrócić zakupów w aplikacji";
+"title.alert.backupImport.importedBackup" = "Twoja kopia zapasowa została zaimportowana";
+"title.alert.backupImport.unableToImportBackup" = "Nie udało się zaimportować twojej kopii zapasowej";
+//
+"title.confirmation.acceptDisclaimer" = "Akceptuj warunki";
+"title.confirmation.inactiveFeature" = "Odkryłeś specjalną funkcję";
+"title.confirmation.importBackup" = "Zaimportuj kopię zapasową";
+//
+"title.subject.export.logs" = "%@ Dzienniki";
+"title.subject.export.backup" = "%@ Kopia zapasowa";
+"title.subject.feedback" = "%@ Feedback";
+
+/* Buttons */
+"button.menu" = "Menu";
+"button.cancel" = "Anuluj";
+"button.ok" = "Ok";
+"button.continue" = "Kontynuuj";
+"button.deleteExercise" = "Usuń ćwiczenie";
+"button.removeExercise" = "Usuń ćwiczenie";
+"button.deleteWorkout" = "Usuń trening";
+"button.deleteExercises.all" = "Usuń wszystko";
+"button.deleteExercises.unused" = "Usuń nieużywane";
+"button.addLog" = "Zapisz";
+"button.set" = "Ustaw";
+"button.setDate" = "Ustaw datę";
+"button.setDateToday" = "Dziś";
+"button.timer" = "Minutnik";
+"button.bodyweights" = "Wagi";
+"button.save" = "Zapisz";
+"button.remove" = "Usuń";
+"button.clear" = "Wyczyść";
+"button.delete" = "Usuń";
+"button.archive" = "Zarchiwizuj";
+"button.unarchive" = "Cofnij archiwizację";
+"button.buy" = "Kup %@ (%@)";
+"button.store" = "Sklep";
+"button.strength" = "Siła";
+"button.cardio" = "Kardio";
+"button.addTo" = "Dodaj do";
+"button.restore" = "Przywróć";
+"button.loadXMore" = "Załaduj %i więcej";
+"button.accept" = "Akceptuję";
+"button.use" = "Użyj %@";
+"button.import" = "Zaimportuj";
+
+/* Labels */
+"label.none" = "Nic";
+"label.never" = "Nigdy";
+"label.empty" = "Puste";
+"label.default" = "Domyślne";
+"label.free" = "Darmowe";
+"label.name" = "Nazwa";
+"label.targetRegion" = "Region";
+"label.targetMuscle" = "Grupa mięśni";
+"label.targetMuscle.primary" = "Główny";
+"label.targetMuscle.secondary" = "Drugi";
+"label.notes" = "Notatki";
+"label.exercise" = "Ćwiczenie";
+"label.exercises" = "%li Ćwiczenia";
+"label.exercises.singular" = "%li Ćwiczenie";
+"label.logs" = "Dzienniki";
+"label.group" = "Grupy";
+"label.timer" = "Minutnik";
+"label.set" = "Ustaw";
+"label.sets" = "%li Zestawy";
+"label.sets.singular" = "%li Zestaw";
+"label.addSet" = "Dodaj zestaw";
+"label.reps" = "Powtórzenia";
+"label.reps.singular" = "Powtórzenie";
+"label.time" = "Czas";
+"label.weight" = "Waga";
+"label.distance" = "Dystans";
+"label.picker.sets" = "zestaw z";
+"label.picker.reps" = "powtórzenie";
+"label.today" = "dziś";
+"label.yesterday" = "wczoraj";
+"label.date" = "Data";
+"label.date.time" = "Czas";
+"label.no" = "Nie";
+"label.yes" = "Tak";
+"label.active" = "Aktywny";
+"label.archived" = "Zarchiwizowany";
+"label.more" = "więcej";
+"label.less" = "mniej";
+"label.notAvailable" = "-";
+"label.pageXOfY" = "%i z %i";
+"label.all" = "Wszystkie";
+"label.image" = "Zdjęcie";
+"label.duration.seconds" = "sekundy";
+"label.inWorkouts" = "W treningach";
+//
+"label.completion" = "Ukończono %li razy";
+"label.completion.singular" = "Ukończono %li raz";
+//
+"label.byExercise" = "Po ćwiczeniach";
+"label.byDate" = "Po dacie";
+"label.byTargetRegion" = "Po regionie";
+"label.byTargetMuscle" = "Po grupie mięśni";
+"label.byTargetMuscle.primary" = "Pierwszyrzędny";
+"label.byTargetMuscle.secondary" = "Drugorzędny";
+"label.byTargetMuscle.primaryAndSecondary" = "Pierwszyrzędny i drugorzędny";
+"label.byTargetMusclePrimary" = "Po pierwszorzędnej grupie mięśniowej";
+"label.byTargetMuscleSecondary" = "Po drugorzędnej grupie mięśniowej";
+"label.byTargetMusclePrimaryAndSecondary" = "Po obu grupach mięśni";
+"label.byWorkout" = "Po treningu";
+//
+"label.statistics.average.reps" = "Średnio powtórzeń";
+"label.statistics.average.time" = "Średni czas";
+"label.statistics.average.weight" = "Średnia waga";
+"label.statistics.average.distance" = "Średni dystans";
+//"label.statistics.total.exercises" = "Razem ćwiczeń";
+"label.statistics.total.sets" = "Razem zestawów";
+"label.statistics.total.reps" = "Razem powtórzeń";
+"label.statistics.total.time" = "Razem czasu";
+"label.statistics.total.weight" = "Razem waga";
+"label.statistics.total.distance" = "Razem dystans";
+"label.statistics.logs.max.reps" = "Maksymalnie powtórzeń";
+"label.statistics.logs.max.time" = "Maksymalnie czasu";
+"label.statistics.logs.max.weight" = "Maksymalna waga";
+"label.statistics.logs.max.distance" = "Maksymalny dystans";
+"label.statistics.logs.min.reps" = "Minimalnie powtórzeń";
+"label.statistics.logs.min.time" = "Minimalnie czasu";
+"label.statistics.logs.min.weight" = "Minimalna waga";
+"label.statistics.logs.min.distance" = "Minimalny dystans";
+//
+"label.days" = "Dni";
+"label.days.all" = "Każdego dnia";
+"label.days.weekdays" = "Dni robocze";
+"label.days.weekends" = "Weekendy";
+"label.day.010.monday" = "Poniedziałek";
+"label.day.020.tuesday" = "Wtorek";
+"label.day.030.wednesday" = "Środa";
+"label.day.040.thursday" = "Czwartek";
+"label.day.050.friday" = "Piątek";
+"label.day.060.saturday" = "Sobota";
+"label.day.070.sunday" = "Niedziela";
+//
+"label.store.active" = "Aktywny";
+"label.store.package" = "Paczka";
+"label.store.packages" = "Paczki";
+"label.store.feature" = "Funkcja";
+"label.store.features" = "Funkcje";
+//
+"label.showLogs.exercise" = "Ćwiczenie";
+"label.showLogs.lastTime" = "Ostatni czas";
+"label.showLogs.previousTime" = "Poprzedni czas";
+"label.showLogs.today" = "Dziś";
+"label.showLogs.workout" = "Trening";
+//regions
+"label.regions.all" = "Wszystkie regiony";
+"label.region.010.shoulders" = "Barki";
+"label.region.020.chest" = "Klatka";
+"label.region.030.back" = "Plecy";
+"label.region.040.arms" = "Ręce";
+"label.region.050.abdomen" = "Brzuch";
+"label.region.060.buttocks" = "Pośladki";
+"label.region.070.legs" = "Nogi";
+"label.region.090.cardio" = "Kardio";
+//muscles - abdomen
+"label.muscle.abdominals" = "Mięśnie brzucha";
+//muscles - arms
+"label.muscle.armExtensors" = "Prostowniki ramion";
+"label.muscle.armFlexors" = "Zginacze ramion";
+"label.muscle.wristExtensors" = "Prostowniki nadgarstków";
+"label.muscle.wristFlexors" = "Zginacze nadgarstków";
+//muscles - back
+"label.muscle.trapezius" = "Mięsień czworoboczny";
+"label.muscle.dorsalMuscles" = "Mięsień grzbietowy";
+"label.muscle.lumbarMuscles" = "Mięsień lędźwiowy";
+//muscles - buttocks
+"label.muscle.glutes" = "Pośladki";
+//muscles - chest
+"label.muscle.pectorals" = "Mięśnie klatki piersiowej";
+//muscles - legs
+"label.muscle.adductors" = "Przywodziciele";
+"label.muscle.calves" = "Łydki";
+"label.muscle.quadriceps" = "Mięsień czworogłowy";
+"label.muscle.thighFlexors" = "Zginacze uda";
+//muscles - shoulders
+"label.muscle.shoulders" = "Barki";
+//
+"label.graph.logs.average" = "Średnio";
+"label.graph.logs.total" = "Razem";
+"label.graph.logs.max" = "Maksymalnie";
+"label.graph.logs.min" = "Minimalnie";
+//
+"label.linegraph.period.0" = "1M";
+"label.linegraph.period.1" = "3M";
+"label.linegraph.period.2" = "6M";
+"label.linegraph.period.3" = "1R";
+"label.linegraph.period.4" = "2R";
+"label.linegraph.period.5" = "5R";
+"label.linegraph.overview.allTime" = "Cały czas";
+"label.linegraph.overview.sinceDate" = "Ostatnie %i dni";
+//
+"label.bodyweight.bmi.today" = "Twoje BMI dziś: %.1lf (%@)";
+"label.bodyweight.bmi.date" = "Twoje BMI z %@: %.1lf (%@)";
+"label.bodyweight.bmi.na" = "Dodaj swoją wagę aby policzyć BMI";
+"label.bodyweight.bmi.category.underweight" = "Niedowaga";
+"label.bodyweight.bmi.category.normal" = "Normalne";
+"label.bodyweight.bmi.category.overweight" = "Nadwaga";
+"label.bodyweight.bmi.category.obese" = "Otyłość";
+//
+"label.settings.general.defaultUnitSystem" = "Domyślna jednostka miary";
+"label.settings.general.theme" = "Motyw
+"label.settings.general.theme.green" = "Zielony";
+"label.settings.general.theme.blue" = "Niebieski";
+"label.settings.general.theme.turquoise" = "Turkusowy";
+"label.settings.general.theme.red" = "Czerwony";
+"label.settings.general.theme.orange" = "Pomarańczowy";
+"label.settings.general.theme.violet" = "Fioletowy";
+"label.settings.general.theme.pink" = "Różowy";
+"label.settings.general.theme.random" = "Losowy";
+"label.settings.timer" = "Minutnik";
+"label.settings.timer.duration" = "Czas trwania";
+"label.settings.timer.durationSecondary" = "Czas trwania (drugiego)";
+"label.settings.timer.autostart" = "Autostart";
+"label.settings.timer.graphical" = "Graficznie";
+"label.settings.timer.sound" = "Dźwięk";
+"label.settings.timer.sound.timerAlertBoxingBell.wav" = "Dzwon bokserski";
+"label.settings.timer.sound.timerAlertTriTone.caf" = "Trójtonowy";
+"label.settings.timer.sound.timerAlertReminder.caf" = "Przypomnienia";
+"label.settings.timer.sound.timerAlertGlass.caf" = "Szkło";
+"label.settings.timer.sound.timerAlertHorn.caf" = "Klakson";
+"label.settings.workout" = "Trening";
+"label.settings.workout.moveToNextExercise" = "Do następnego ćwiczenia";
+"label.settings.workout.moveToNextExercise.manually" = "Manualnie";
+"label.settings.workout.moveToNextExercise.assisted" = "Z asystą";
+"label.settings.workout.defaultLog" = "Domyślny dziennik";
+"label.settings.workout.defaultLog.lastTime" = "Ostatni raz";
+"label.settings.workout.defaultLog.set" = "Ustaw";
+"label.settings.workout.graphType" = "Typ wykresu";
+"label.settings.workout.graphType.0" = "Średnio";
+"label.settings.workout.graphType.description.0" = "średnia powtórzeń lub średni czas i średnia waga lub średni dystans";
+"label.settings.workout.graphType.1" = "Razem";
+"label.settings.workout.graphType.description.1" = "całkowita liczba powtórzeń lub całkowity czas i całkowita waga lub całkowity dystans";
+"label.settings.workout.graphType.2" = "Maksymalne";
+"label.settings.workout.graphType.description.2" = "maksymalna liczba powtórzeń lub maksymalny czas i maksymalna waga lub maksymalny dystans";
+"label.settings.workout.graphType.3" = "Minimalne";
+"label.settings.workout.graphType.description.3" = "minimalna liczba powtórzeń lub minimalny czas i minimalna waga lub minimalna odległość";
+"label.settings.exercises" = "Ćwiczenia";
+"label.settings.exercises.language" = "Języki";
+"label.settings.exercises.language.en" = "Angielski";
+"label.settings.exercises.language.de" = "Niemiecki";
+"label.settings.exercises.language.it" = "Włoski";
+"label.settings.exercises.showTargetMuscles" = "Pokaż grupę mięsni";
+"label.settings.exercises.showTargetMuscles.all" = "Tak";
+"label.settings.exercises.showTargetMuscles.description.all" = "Pierwszorzędna i drugorzędna docelowa grupa mięśni";
+"label.settings.exercises.showTargetMuscles.primary" = "Tylko pierwszorzędne";
+"label.settings.exercises.showTargetMuscles.description.primary" = "Tylko pierwszorzędna docelowa grupa mięśni";
+"label.settings.exercises.showTargetMuscles.none" = "Nie";
+"label.settings.exercises.showTargetMuscles.description.none" = "Bez docelowej grupy mięśni";
+"label.settings.basicInformation" = "Podstawowe informacje";
+"label.settings.basicInformation.height" = "Waga ciała";
+"label.settings.basicInformation.sex" = "Płeć";
+"label.settings.basicInformation.sex.male" = "Mężczyzna";
+"label.settings.basicInformation.sex.female" = "Kobieta";
+"label.settings.basicInformation.birthday" = "Urodziny";
+"label.settings.export" = "Eksportuj przez email";
+"label.settings.export.logs" = "Dziennik";
+"label.settings.export.logs.subtitle" = "Eksportuj dzienniki jako pliki CSV i XML";
+"label.settings.export.backup" = "Kopia zapasowa";
+"label.settings.export.backup.subtitle" = "Eksportuj dzienniki jako plik bazodanowy";
+"label.settings.applicationInformation.store" = "Sklep";
+"label.settings.applicationInformation.hints" = "Pomoc";
+"label.settings.applicationInformation.hints.subtitle" = "Włącz lub wyłącz wskazówki";
+"label.settings.applicationInformation.hints.enable" = "Włącz wszystkie wskazówki";
+"label.settings.applicationInformation.hints.disable" = "Wyłącz wszystkie wskazówki";
+"label.settings.applicationInformation.rate" = "Oceń aplikację";
+"label.settings.applicationInformation.feedback" = "Przekaż opinię";
+"label.settings.applicationInformation.feedback.subtitle" = "Przedstaw sugestie lub zgłoś błędy";
+"label.settings.applicationInformation.recommend" = "Poleć aplikację";
+"label.settings.applicationInformation.recommend.sms" = "Poleć przez SMS";
+"label.settings.applicationInformation.recommend.email" = "Poleć przez email";
+"label.settings.applicationInformation.recommend.whatsapp" = "Poleć przez WhatsApp";
+"label.settings.applicationInformation.version" = "Wersja";
+
+/* Texts */
+"text.placeholder.textInput.workout.name" = "Klata i biceps, całe ciało, 5x5 n...";
+"text.placeholder.textInput.exercise.name" = "Pompki, wyciskanie nóg, brzuszki...";
+"text.placeholder.addBodyweightLog.today" = "Twoja waga dziś...";
+"text.placeholder.addBodyweightLog.date" = "Twoja waga z %@...";
+//"text.description.workoutExercisesCount" = "%li ćwiczenia";
+//"text.description.workoutExercisesCount.singular" = "%li ćwiczenie";
+"text.description.workoutExerciseSets.strength" = "%i serii z %@ powtórzeniami z %@ %@";
+"text.description.workoutExerciseSets.cardio" = "%i serii z %@ %@ w %@ minut";
+"text.description.exerciseLog.strength" = "%i x %.2lf %@";
+"text.description.exerciseLog.cardio" = "%i', %.2lf %@";
+"text.description.footer.exercise.workoutsCount" = "To ćwiczenie jest używane w %i treningach.";
+"text.description.footer.exercise.workoutsCount.singular" = "To ćwiczenie jest używane w %i treningu.";
+"text.description.footer.exercise.logsCount" = "Jest %i zapisów z tym ćwiczeniem."; 
+"text.description.footer.exercise.logsCount.singular" = "Jest %i zapis z tym ćwiczeniem.";
+"text.description.footer.workoutExercise.timerDuration" = "Jeśli nie ustawisz dokładnego czasu minutnika, czas używany w '%@' będzie użyty (aktualnie %@).";
+"text.description.footer.exercise.addToWorkout" = "Wybierz trening do którego chcesz dodać ćwiczenie. Ćwiczenie zostanie dodane z domyślną serią i będzie można je modyfikować w treninach.";
+"text.description.footer.workout.completion" = "Trening uważa się za zakończony, jeśli dla każdej serii każdego ćwiczenia istnieje dziennik. Czas trwania treningu jest szacowany na podstawie czasu trwania pierwszego zapisu i różnicy czasu między pierwszym a ostatnim zapisem.";
+"text.description.footer.workout.logsCount" = "Jest %li dzienników dla każdego ćwiczenia które są obecne w tym treningu."; /////////////////////////////////////////////////////////////////TODOTODO
+"text.description.footer.workout.logsCount.singular" = "There is %li log for the exercises that are present in this workout.";
+"text.description.mail.export.logs" = "This email contains your %@ logs as CSV and XML files.";
+"text.description.mail.export.backup" = "This email contains a %@ backup as a database file.\n\nTo import the backup, simply open it in %@ from within this email.";
+"text.description.timerDismissAndStop" = "Swipe down to close and stop timer";
+"text.description.timerDismissAndContinue" = "Swipe up to close timer without stopping it";
+"text.description.timerCompleted" = "%@ timer completed";
+"text.description.missingDataForLineGraph" = "A line graph will be drawn here as soon as there is enough data available.";
+"text.description.missingDataForPieChart" = "A pie chart will be drawn here as soon as there is enough data available.";
+"text.description.bodyweightLog" = "%.1lf%@";
+"text.description.settings.general.theme" = "Restart the app (remove it from the task manager and start it afterwards) to activate the new theme.";
+"text.description.settings.timer.durationSecondary" = "Hold your finger on the timer button to start the timer with the secondary duration. With a normal tap you can still start the timer with the primary duration - as usual.";
+"text.description.settings.workout.moveToNextExercise" = "Set '%@' if after saving a log you want to move automatically to the next exercise to be performed.";
+"text.description.settings.workout.defaultLog" = "Choose how the picker should be pre-filled when logging a set and what should be logged when using Quick-Log. '%@' uses last time's log and '%@' uses the settings of the set.";
+"text.description.settings.workout.graphType" = "The line graph during your workout shows %@.";
+"text.description.settings.exercises" = "The exercise names will be shown in %@. %@ is visualized in the exercise images.";
+"text.description.settings.applicationInformation.recommend" = "Check out this new app: %@";
+"text.confirmation.acceptDisclaimer" = "The exercises and example workouts provided by {{appName}} have been created with the highest care and best effort. Nevertheless, they are intended for orientation only and are supplied without guarantees. {{appName}} assumes no liability for any disadvantages or damages resulting from the use of {{appName}} and/or the information provided by {{appName}}.";
+"text.confirmation.deleteExercise" = "Are you sure you want to delete the exercise \n\"%@\"?";
+"text.confirmation.deleteWorkout" = "Are you sure you want to delete the workout \n\"%@\"?";
+"text.confirmation.deleteExercises.all" = "Are you sure you want to delete ALL exercises?";
+"text.confirmation.deleteExercises.unused" = "Unused exercises are exercises which are currently not in any workout and do not have any logs. Are you sure you want to delete them?";
+"text.confirmation.removeWorkoutExercise" = "Are you sure you want to remove the exercise \n\"%@\" with %@?";
+"text.confirmation.settings.exercises.language" = "If you set the language of the exercises to %@, the names of all non-custom exercises will be overwritten. Your custom exercises (the ones you have created yourself) are not affected.";
+"text.confirmation.inactiveFeature" = "You can unlock it in the {{appName}} Store by buying %@.\n\nHint: you can also unlock ALL special functions at once by buying the %@ package.";
+"text.confirmation.inactiveFeature.simple" = "You can unlock it in the {{appName}} Store.";
+"text.confirmation.importBackup" = "You are trying to import the backup \'%@\'. All your data will be replaced with the one from the backup. Your settings and in-app purchases are not affected.";
+"text.information.noNotes" = "No notes";
+"text.information.completedWorkout.counter" = "%@ you completed %@ for the %@ time.";
+"text.information.completedWorkout.counter.progress" = "The %@ time you completed it was %@.";
+"text.information.completedWorkout.duration" = "You completed it in about %@.";
+"text.information.completedWorkout.duration.progress" = "Compared to last time, it took you about %@ to complete it.";
+"text.information.completedWorkout.statistics.total.reps" = "You performed a total of %@.";
+"text.information.completedWorkout.statistics.total.reps.progress" = "Compared to last time you performed %@.";
+"text.information.completedWorkout.statistics.total.reps.progress.same" = "the same amount of repetitions";
+"text.information.completedWorkout.statistics.total.reps.unit" = "repetitions";
+"text.information.completedWorkout.statistics.total.reps.unit.singular" = "repetition";
+"text.information.completedWorkout.statistics.total.time" = "You performed cardio for a total time of %@.";
+"text.information.completedWorkout.statistics.total.time.progress" = "Compared to last time you performed cardio for %@.";
+"text.information.completedWorkout.statistics.total.time.progress.same" = "the same total time";
+"text.information.completedWorkout.statistics.total.time.unit" = "minutes";
+"text.information.completedWorkout.statistics.total.time.unit.singular" = "minute";
+"text.information.completedWorkout.statistics.total.weight" = "You lifted a total of %@.";
+"text.information.completedWorkout.statistics.total.weight.progress" = "Compared to last time you lifted %@.";
+"text.information.completedWorkout.statistics.total.weight.progress.same" = "the same amount of weight";
+"text.information.completedWorkout.statistics.total.distance" = "You performed cardio for a total distance of %@.";
+"text.information.completedWorkout.statistics.total.distance.progress" = "Compared to last time you performed cardio for %@.";
+"text.information.completedWorkout.statistics.total.distance.progress.same" = "the same total distance";
+"text.alert.notifications" = "The timer will not work properly if notifications are turned off for {{appName}}.";
+"text.alert.backupImport.unableToImportBackup" = "Please make sure that you are using a valid {{appName}} backup database file which you exported with {{appName}}.";
+//products
+//
+"text.inAppPurchase.product.package.platinum.description" = "This package will forever give you unlimited access to all {{appName}} functions. For only [{PRODUCT_PRICE}] it unlocks all the existing special functions and also all the functions that will be developed in the future. Each newly developed function will automatically be enabled for you right away - forever!";
+"text.inAppPurchase.product.package.gold.description" = "With this package you can immediately unlock several {{appName}} functions at once and thus benefit from a more attractive price.";
+//
+"text.inAppPurchase.product.feature.allExercises.description" = "Load %li additional exercises like for example '%@', '%@' or '%@'.\n\nAdditionally, with [{PRODUCT_NAME}] you also activate all exercises which will be added in the future.";
+"text.inAppPurchase.product.feature.timerPlus.description" = "With [{PRODUCT_NAME}] you get the most out of your timer. The secondary timer offers you valuable flexibility, with the automatic timer start you save time and energy and the graphical timer can be very useful.\n\nLast but not least: you can also change the sound of your timer.";
+"text.inAppPurchase.product.feature.themes.description" = "With this purchase you can change the appearance of {{appName}}. Choose the design that brings out the best in you during your training. Or the one that fits your outfit best.\n\nCurrently there are %li great designs available and more are in development.";
+"text.inAppPurchase.product.feature.export.description" = "[{PRODUCT_NAME}] enables you to export your logs and a backup of all your data via email.\n\nYour logs are exported as CSV and XML files and can be used outside of {{appName}}. Your backup is exported as a database file and can easily be imported back into {{appName}}.";
+//hints
+//
+"text.hint.introduction.1" = "Welcome to {{appName}}. These hints will give you some useful information on how to use {{appName}}.";
+"text.hint.introduction.2" = "For better orientation, {{appName}} ships with %li example workouts. Select one to see what a workout might look like.";
+"text.hint.startedWorkouts" = "If you are in the middle of one of today's workouts, here you will see its progress.";
+"text.hint.archiveWorkout.1" = "You can archive your workouts by swiping left and selecting '%@'.";
+"text.hint.archiveWorkout.2" = "Tap here to access your archived workouts.";
+//
+"text.hint.startWorkout" = "You can start a workout by selecting any exercise.";
+"text.hint.startedWorkout.1" = "If you are in the middle of today's workout, here you will see the progress of each exercise.";
+"text.hint.startedWorkout.2" = "Once your workout is complete, here you can access the summary of your workout.";
+"text.hint.editWorkout" = "Use 'Edit' to add new exercises to your workout or to modify or remove existing ones.";
+"text.hint.performWorkout.1" = "Here there is an entry for each set you have to perform. In this case, the goal is %@.\n\nSimply tap a set to add a log.";
+"text.hint.performWorkout.2" = "Tap here to reveal additional information about the current exercise and workout.";
+"text.hint.performWorkout.3" = "Swipe left or right to move to the other exercises within a workout.";
+"text.hint.logNotes" = "If you want to add notes to a log, you can do it by holding your finger on an existing log.";
+"text.hint.quickLog" = "Hold down your finger on a set to quickly log the same as the previous time.\n\nHint: this works for the selected set and all the previous ones.";
+"text.hint.lineGraphInfo" = "Hold down your finger on the line graph and move it left or right to see exactly how you did on a specific date.";
+"text.hint.pieChartInfo" = "Tap a value in the pie chart or in the legend to highlight it.";
+"text.hint.customizeStatistics" = "You can customize how the line graphs and pie charts display your data.";
+//
+"text.hint.createWorkoutExercise.1" = "Here you can select the exercise you want to add to your workout.";
+"text.hint.createWorkoutExercise.2" = "You can also edit the sets of your exercise, group your exercise inside your workout and define a specific timer duration for this exercise.";
+"text.hint.createExerciseOnTheFly" = "If none of the existing exercises suits you, use '+' to create and add your own exercise on the fly.\n\nHint: you can also select an exercise and modify it later on.";
+//
+"text.hint.browseExercises" = "From here you have access to all your exercises. Select a specific target region or '%@' to start browsing through your exercises.";
+"text.hint.manageExercises.1" = "Select an exercise to open its detail view.\nFrom within the detail view you can for example access the exercise's logs or add the exercise to a workout.";
+"text.hint.manageExercises.2" = "Use 'Edit' to modify or delete your exercises or to create new ones.";
+"text.hint.usedExercises" = "Used exercises - these are exercises that are currently in a workout or for which there are some logs - are highlighted.";
+"text.hint.createExercise" = "An exercise only requires a name and a target region. All the other values are optional.";
+"text.hint.usedInWorkouts" = "Workouts in which the current exercise is being used are highlighted.";
+"text.hint.addToWorkout.1" = "Here you can select the workout to which you want to add your exercise.";
+"text.hint.addToWorkout.2" = "If none of the existing workouts suits you, use '+' to immediately create a new workout and add your exercise to it.";
+
+/* Data */
+//workouts
+"data.workout.simple" = "Simple Example";
+"data.workout.simple.notes" = "Sample workout to illustrate how a simple workout might look like.";
+"data.workout.groups" = "Groups Example";
+"data.workout.groups.notes" = "Sample workout to illustrate how a workout with grouped exercises might look like.";
+"data.workout.supersets" = "Supersets Example";
+"data.workout.supersets.notes" = "Sample workout to illustrate how a workout with supersets might look like.";
+"data.workout.dropsets" = "Dropsets Example";
+"data.workout.dropsets.notes" = "Sample workout to illustrate how a workout with dropsets might look like.";
+"data.workout.*.notes" = "\n\nFeel free to use it for illustrative purposes and simply delete it whenever you want.";
